@@ -6,8 +6,10 @@ nCapture        = 30
 timeIntervalSec = 0.5
 
 cap = cv2.VideoCapture(0)
-cap.set(3,10000)
-cap.set(4,10000)
+cap.set(3,1920)
+cap.set(4,1080)
+#cap.set(3,10000)
+#cap.set(4,10000)
 w = int(cap.get(3))
 h = int(cap.get(4))
 print('width :%d, height : %d' % (w, h))
